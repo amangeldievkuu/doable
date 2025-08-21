@@ -346,6 +346,15 @@ GEM
     stringio (3.1.7)
     syntax_tree (6.3.0)
       prettier_print (>= 1.2.0)
+    tailwindcss-rails (4.3.0)
+      railties (>= 7.0.0)
+      tailwindcss-ruby (~> 4.0)
+    tailwindcss-ruby (4.1.12)
+    tailwindcss-ruby (4.1.12-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.12-aarch64-linux-musl)
+    tailwindcss-ruby (4.1.12-arm64-darwin)
+    tailwindcss-ruby (4.1.12-x86_64-linux-gnu)
+    tailwindcss-ruby (4.1.12-x86_64-linux-musl)
     thor (1.4.0)
     thruster (0.1.15)
     thruster (0.1.15-aarch64-linux)
@@ -410,6 +419,7 @@ DEPENDENCIES
   sqlite3 (>= 2.1)
   standard
   stimulus-rails
+  tailwindcss-rails (~> 4.3)
   thruster
   turbo-rails
   tzinfo-data
