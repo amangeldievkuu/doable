@@ -1,3 +1,5 @@
 <h1><%= @project.name %></h1>
 
 <p>Project details comming soon</p>
+<%= button_to "Delete", project_path(@project), method: :delete %>
+<%= link_to "Edit", edit_project_path(@project) %>
